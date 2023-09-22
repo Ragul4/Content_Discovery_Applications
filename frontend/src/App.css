@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  background-size: cover;
+  height: 1200px;
+  background-repeat: no-repeat;
+  animation: changeBackground 5s infinite; /* Change every 30 seconds */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.box2 {
+  color: beige;
+  text-align: center;
+  margin-left: 300px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url('https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg');
+  }
+  33% {
+    background-image: url('https://t3.ftcdn.net/jpg/02/75/06/42/240_F_275064226_KRhldT5VTVHb5QoyzOJvqFSXZWt8FxOQ.jpg');
+  }
+  66% {
+    background-image: url('https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg');
+  }
+  
+  100% {
+    background-image: url('https://cdn.wallpapersafari.com/80/24/kfaDnd.jpg'); /* Repeat the first image to create a loop */
+  }
+}

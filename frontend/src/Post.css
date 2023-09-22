@@ -1,0 +1,175 @@
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  color: antiquewhite;
+}
+.head{
+  color:rgb(248, 5, 5);
+  font-style: italic;
+}
+.sign-label {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.sign-input {
+  font-size: 16px;
+
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.login-label {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.login-input {
+  font-size: 16px;
+  
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #008CBA;
+  color: white;
+  font-size: 16px;
+  border: none;
+  
+  cursor: pointer;
+}
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  background-size: auto;
+}
+.button1{
+  background-color: rgb(21, 108, 185);
+  height:40px;
+  width:100px;
+  margin-left:60px;
+  margin-top:10px;
+}
+.delete-label{
+  color: azure;
+  size: 200px;
+  font-size: 30px;
+}
+.button2{
+  background-color: rgb(237, 9, 229);
+  height:40px;
+  width:100px;
+  margin-left:70px;
+}
+.button3{
+  background-color: rgb(240, 76, 155);
+  height:40px;
+  width:100px;
+  margin-left:70px;
+}
+/* Add a glowing text effect to .head */
+.head {
+  color: rgb(235, 5, 247);
+  font-style: italic;
+  animation: glow 2s infinite alternate; /* Apply the glow animation */
+}
+
+/* Define the glow animation */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(248, 234, 43, 0.8), 0 0 20px rgba(248, 234, 43, 0.8), 0 0 30px rgba(248, 234, 43, 0.8);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(248, 234, 43, 0.8), 0 0 30px rgba(248, 234, 43, 0.8), 0 0 40px rgba(248, 234, 43, 0.8);
+  }
+}
+
+/* Add moving text effects to #h1, #h2, and #h3 */
+#h1 {
+  transform: translate(-120px, 50px);
+  animation: move1 15s infinite alternate; /* Apply the move1 animation */
+}
+
+#h2 {
+  transform: translate(120px, 10px);
+  animation: move2 11s infinite alternate; /* Apply the move2 animation */
+}
+
+#h3 {
+  transform: translate(0px, -40px);
+  animation: move3 10s infinite alternate; /* Apply the move3 animation */
+}
+
+/* Define the moving animations */
+@keyframes move1 {
+  from {
+    transform: translate(-120px, 50px);
+  }
+  to {
+    transform: translate(120px, 50px);
+  }
+}
+
+@keyframes move2 {
+  from {
+    transform: translate(120px, 10px);
+  }
+  to {
+    transform: translate(-120px, 10px);
+  }
+}
+
+@keyframes move3 {
+  from {
+    transform: translate(0px, -40px);
+  }
+  to {
+    transform: translate(0px, 40px);
+  }
+}
+
+#f{
+  transform: translate(50px,250px);
+}
+
+#ff{
+  transform: translate(-300px,350px);
+}
+#fff{
+  transform: translate(450px,220px);
+}
+
+#f2{
+  transform: translate(-520px,0px);
+}
+
+
+#l0{
+  transform: translate(10px,150px);
+}
+
+
+#l{
+  transform: translate(0px,150px);
+}
+
+#l1{
+  transform: translate(0px,150px);
+}
+
+#l2{
+  transform: translate(16px,150px);
+}
+
+#l3{
+  transform: translate(20px,150px);
+}
